@@ -8,7 +8,6 @@ mod tests {
 
 fn main() {
     println!("Hello, world!");
-    println!("Hoi, Hoi!");
 }
 
 
