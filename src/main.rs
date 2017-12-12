@@ -1,7 +1,14 @@
+extern crate rand;
+
+
 fn main() {
-    println!("Hell0, world!");
+    let tuple = rand::random::<(f64, char)>();
+    println!("{:?}", tuple)
+
     
 }
+
+
 
 
 
