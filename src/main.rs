@@ -15,7 +15,9 @@ fn main() {
     
     assert!(r.to_string() == ">= 2.0.0".to_string());
     assert!(r.matches(&v));
+    assert!(r1.to_string() == ">= 1.0.0".to_string());
     assert!(r1.matches(&v1));
+    
 }
 
 
