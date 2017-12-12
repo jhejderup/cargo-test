@@ -11,7 +11,6 @@ fn main() {
     
     assert!(r.to_string() == ">= 1.0.0".to_string());
     assert!(r.matches(&v));
-    println!("Hello, world!");
 }
 
 
